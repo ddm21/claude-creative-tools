@@ -1,0 +1,46 @@
+{
+  "name": "claude-creative-tools",
+  "description": "Collection of Claude Code skills for AI image generation and creative direction",
+  "owner": {
+    "name": "ddm21",
+    "email": "contact@example.com"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "openrouter-images-skill",
+      "source": "./plugins/openrouter-images-skill",
+      "description": "AI image generation Creative Director powered by Gemini via OpenRouter. Text-to-image, image editing, batch processing, and cost tracking.",
+      "version": "2.0.0",
+      "category": "creative",
+      "author": {
+        "name": "ddm21"
+      },
+      "keywords": ["images", "ai", "generation", "openrouter", "creative"]
+    },
+    {
+      "name": "ai-director",
+      "source": "./plugins/ai-director",
+      "description": "Master framework for AI image generation, cinematic video direction, and narrative storytelling.",
+      "version": "1.0.0",
+      "category": "creative",
+      "author": {
+        "name": "ddm21"
+      },
+      "keywords": ["ai", "images", "video", "cinematography", "storytelling"]
+    },
+    {
+      "name": "thumbnail-creator",
+      "source": "./plugins/thumbnail-creator",
+      "description": "YouTube thumbnail creative director. Generates high-converting thumbnail prompts with 33+ techniques.",
+      "version": "1.0.0",
+      "category": "creative",
+      "author": {
+        "name": "ddm21"
+      },
+      "keywords": ["youtube", "thumbnails", "design", "creative", "marketing"]
+    }
+  ]
+}
